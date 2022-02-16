@@ -84,7 +84,7 @@ Content-type: application/json
 
 {
     "ok": true, 
-    "risk": 90.52910052910053
+    "severity-score": 90.52910052910053
 }
 ```
 
