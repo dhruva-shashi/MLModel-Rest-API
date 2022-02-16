@@ -10,7 +10,7 @@ def hello():
     try:
         param = list(map(float, request.query['param'].split(',')))
         pred = list(MLModel.predict([param]))
-        return {'ok': True, 'risk': min(100.0, pred[0])}
+        return {'ok': True, 'risk': 100*min(1.0, pred[0])}
     except Exception as e:
         return {'ok': False, 'error': str(e)}
 
