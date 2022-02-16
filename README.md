@@ -66,11 +66,11 @@ If successful, the message returns a `200 OK` response code and the estimation o
 
 ## Example
 
-The following example, makes a prediction of a male patient whose age is 80 years and who is suffering from diabetes and cardiovascular diseases
+The following example, estimates the severity of a male patient whose age is 80 years and who is suffering from diabetes and cardiovascular diseases
 
 ### Request
 
-The values are passed to the `param`, parameters, according to the order given in the table. They values are comma separated.
+The values are passed to the `param`, parameters, according to the order given in the table. The values are comma separated.
 
 `GET https://covid-project-api.herokuapp.com/api?param=0,80,0,1,0,0,0,0,1,0,0,0,1,0,0`
 
